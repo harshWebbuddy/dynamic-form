@@ -9,6 +9,7 @@ import {
 } from "@mui/material";
 import RemoveIcon from "@mui/icons-material/Remove";
 import AddIcon from "@mui/icons-material/Add";
+import SendIcon from "@mui/icons-material/Send";
 
 const StyledForm = styled("form")(({ theme }) => ({
   "& .MuiTextField-root": {
@@ -76,7 +77,7 @@ setInputFields(values);
           variant="contained"
           color="primary"
           type="submit"
-          endIcon={<Icon>send</Icon>}
+          endIcon={<SendIcon>send</SendIcon>}
           onClick={handleSubmit}
         >
           Send
