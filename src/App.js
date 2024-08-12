@@ -5,11 +5,11 @@ import {
   TextField,
   Button,
   styled,
-  Icon,
 } from "@mui/material";
 import RemoveIcon from "@mui/icons-material/Remove";
 import AddIcon from "@mui/icons-material/Add";
 import SendIcon from "@mui/icons-material/Send";
+import ReactDOM from 'react-dom/client';
 
 const StyledForm = styled("form")(({ theme }) => ({
   "& .MuiTextField-root": {
